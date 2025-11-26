@@ -16,7 +16,7 @@ app.use("/api/events", eventRoutes);
 
 // Basic health route (optional)
 app.get("/", (req, res) => {
-  res.json({ message: "Advanced Event Management API (CRUD only)" });
+  res.json({ message: "Advanced Event Management API" });
 });
 
 // Error handler middleware (for thrown errors)
